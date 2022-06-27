@@ -1,0 +1,23 @@
+.headDiv {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+  flex-wrap: wrap;
+}
+.childDiv {
+  width: 50%;
+  height: 50%;
+}
+.div1 {
+  background-color: blanchedalmond;
+}
+.div2 {
+  background-color: blue;
+}
+.div3 {
+  background-color: blueviolet;
+}
+.div4 {
+  background-color: coral;
+}

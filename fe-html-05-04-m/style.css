@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav_div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  background-color: brown;
+}
+.child_dv {
+  width: 30%;
+  height: 50px;
+  background-color: green;
+  margin-right: 5%;
+}

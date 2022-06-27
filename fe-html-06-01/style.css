@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  width: 94%;
+  margin: 0 auto;
+}
+button {
+  width: 100%;
+  background-color: rgb(36, 173, 152);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+/* tablets*/
+@media (min-width: 360px) {
+  div {
+    width: 96%;
+  }
+}
+
+/*labtops*/
+
+@media screen and (min-width: 768px) {
+  div {
+    display: flex;
+    width: 720px;
+  }
+  button {
+    align-self: center;
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
+/*desktops*/
+@media screen and (min-width: 1024px) {
+  div {
+    width: 996px;
+  }
+  button {
+    width: auto;
+  }
+}
+
+@media (hover: hover) {
+  button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 173, 152);
+  }
+}

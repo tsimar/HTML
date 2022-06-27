@@ -1,0 +1,14 @@
+.head {
+  display: flex;
+  background-color: aqua;
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.childDiv {
+  display: inline;
+  background-color: blueviolet;
+  width: 33.33%;
+  height: 10vh;
+}

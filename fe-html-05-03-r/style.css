@@ -1,0 +1,25 @@
+@import "./reset.css";
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+div {
+  display: flex;
+  background-color: blueviolet;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  background-color: aqua;
+  width: 50%;
+}
+h2 {
+  width: 50%;
+}
+p {
+  width: 50%;
+}

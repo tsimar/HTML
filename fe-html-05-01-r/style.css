@@ -1,0 +1,18 @@
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+.diamond {
+  width: 200px;
+  height: 200px;
+  transform: matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0);
+  background-color: aquamarine;
+  margin-top: 100px;
+}
